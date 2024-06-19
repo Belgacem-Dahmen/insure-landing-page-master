@@ -82,6 +82,7 @@ nav {
     color: var(--very-light-gray);
     text-align: center;
 }
+
 .intro__img {
     display: flex;
     justify-content: center;
@@ -251,6 +252,11 @@ nav {
         align-items: center;
     }
 
+    .nav-list-item:hover {
+        cursor: pointer;
+        color: #000;
+    }
+
     .nav-list-item-btn {
         padding: 10px 30px;
         background: transparent;
@@ -259,6 +265,12 @@ nav {
         font-weight: var(--font-weight-bold);
         border-color: var(--very-dark-violet);
         color: var(--very-dark-violet);
+    }
+
+    .nav-list-item-btn:hover {
+        cursor: pointer;
+        background-color: var(--very-dark-violet);
+        color: var(--very-light-gray);
     }
 
     .intro {
@@ -272,8 +284,8 @@ nav {
 
 
     }
-   
-    
+
+
     .intro__text::before {
         content: '';
         position: absolute;
@@ -310,6 +322,12 @@ nav {
         font-weight: var(--font-weight-bold);
         border-color: white;
         color: white;
+    }
+
+    .intro__text-btn:hover {
+        background-color: white;
+        color: var(--dark-violet);
+        cursor: pointer;
     }
 
     .intro__img {
@@ -413,10 +431,16 @@ nav {
         color: white;
     }
 
+    .about__btn:hover {
+        background-color: white;
+        color: var(--dark-violet);
+        cursor: pointer;
+    }
+
     footer {
         padding: 0 var(--desktop-padding-aside);
         text-align: left;
-    }   
+    }
 
     .footer__top {
         display: flex;
@@ -429,7 +453,15 @@ nav {
     .footer__top-socials {
         display: flex;
         gap: 15px;
+
     }
+
+    .footer__top-socials svg path:hover {
+
+        fill: var(--very-dark-violet);
+        cursor: pointer;
+    }
+
 
     .footer__bottom {
 
@@ -459,6 +491,12 @@ nav {
         color: var(--dark-violet);
         text-transform: uppercase;
     }
+
+    .footer__bottom__list-box-item:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
 
 
 }
