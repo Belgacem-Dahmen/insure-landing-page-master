@@ -315,13 +315,15 @@ nav {
         background-color: var(--very-dark-violet);
         color: var(--very-light-gray);
     }
+
     .container {
         background-image: url(/images/bg-pattern-intro-left-desktop.svg);
         background-repeat: no-repeat;
         background-position: 0% 35%;
         z-index: 5;
-        
+
     }
+
     .intro {
 
         display: grid;
@@ -350,6 +352,7 @@ nav {
         flex-direction: column;
         gap: 30px;
         position: relative;
+        background-image: none;
     }
 
     .intro__text-title {
@@ -384,7 +387,7 @@ nav {
         min-width: 50%;
         height: 100%;
         position: relative;
-        
+
     }
 
 
@@ -503,7 +506,7 @@ nav {
         justify-content: space-between;
         align-items: center;
         background-image: none;
-        
+
     }
 
     .footer__top-socials {
