@@ -311,7 +311,12 @@ nav {
         background-color: var(--very-dark-violet);
         color: var(--very-light-gray);
     }
-
+    .container {
+        background-image: url(/images/bg-pattern-intro-left-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 35%;
+        
+    }
     .intro {
 
         display: grid;
@@ -319,8 +324,9 @@ nav {
         justify-content: center;
         padding: 150px var(--desktop-padding-aside) 0 var(--desktop-padding-aside);
         text-align: left;
-
-
+        background-image: url(/images/bg-pattern-intro-right-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
 
     }
 
@@ -373,6 +379,7 @@ nav {
         min-width: 50%;
         height: 100%;
         position: relative;
+        
     }
 
 
