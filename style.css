@@ -139,7 +139,8 @@ nav {
 
 .intro__text {
     padding: 100px 20px;
-
+    background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
 }
 
 .intro__text-title {
@@ -217,6 +218,9 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-image: url(/images/bg-pattern-footer-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .footer__top-socials {
